@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <form>
+        <h1>STUDENT DETAILS FORM</h1>
+        <label>Name :</label>
+        <input type="text" placeholder="Enter your name" required/>
+    </br></br>
+        <label>DOB :</label>
+        <input type="date">
+        <br><br>
+        <label>Age :</label>
+        <input type="number" placeholder="Enter your Age" required>
+        <br><br>
+        <label>College Name :</label>
+        <input type="text" placeholder="enter your college name">
+        <br><br>
+        <label>phone number :</label>
+        <input type="number" placeholder="enter phone number">
+        <br><br>
+        <fieldset style="width: 20%;">
+             <legend>Gender :</legend>
+            <!-- if we wanted to select only one then we have to use radio buttons -->
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label>female</label><br>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label>male</label><br> 
+        </fieldset><br>
+        <fieldset style="width: 20%;">
+            <legend>skills :</legend>
+            <input type="checkbox"/>
+            <label>HTML</label><br>
+            <input type="checkbox"/>
+            <label>Java</label><br>
+            <input type="checkbox"/>
+            <label>Python</label><br>
+        </fieldset><br><br>
+        <label> Candidate role :</label>
+        <select id="role" name="role" required>
+            <option value="Student">Student</option>
+            <option value="employee">employee</option>
+        </select><br><br>
+        <label>Resume:</label>
+        <input type="file" name="resume" id="resume" accept=".pdf .Doc .docx" required><br><br>
+        <label>email :</label>
+        <input type="email" name="email" id="email" value="email"/><br><br>
+        <label>password :</label>
+        <input type="password" name="password" id="password"/><br><br>
+        <label for="note">note :</label>
+        <text area id="note" name="note" rows="4" cols="50"></text area><br><br>
+        <input type="submit" value="submit"/>
+    </form> 
+</body>
+</html>
