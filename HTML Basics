@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title Name</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>This is para</p>
+        <button>click here</button><br /><br />
+        <a href="https://www.amazon.in/s?k=amaozn&adgrpid=57434613725&ext_vrnc=hi&hvadid=617724335989&hvdev=c&hvlocphy=9062135&hvnetw=g&hvqmt=b&hvrand=11413750329690406507&hvtargid=kwd-317907835099&hydadcr=15413_2322997&tag=googinhydr1-21&ref=pd_sl_2j92my16t3_b">amazon</a><br><br>
+        <img src="./photos/viratpic.jpg" alt="Virat Kohli"/><hr/>
+        <div>The div tag in HTML is a block-level container used to group content together for styling or layout
+            purposes. It stands for "division" and is commonly used in web development to create sections or
+            divisions within a webpage. The content inside a div tag typically takes up the full width available
+            by default, creating a block-level element that starts on a new line and spans the entire width of
+            its parent container.</div><br><br>
+        <span>The span tag is an inline element, meaning it does not break the flow of text. It only takes up the
+              space needed by its content, allowing text and other inline elements to appear on the same line.</span><br><br>
+        <heading>Header Semantic Elements</heading><br/>
+        <section>Body Semantic Elements</section>
+        <footer>Footer Semantic Elements</footer>
+    </div>
+</body>
+</html>
